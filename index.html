@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manoj Palanisamy - Full Stack Developer</title>
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 20px;
+        text-align: center;
+      }
+
+      .skill {
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease;
+      }
+
+      .skill:hover {
+        transform: translateY(-5px);
+      }
+
+      .skill img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 8px;
+      }
+
+      .skill span {
+        display: block;
+        font-size: 0.95rem;
+        color: #333;
+        margin-top: 5px;
+      }
+
+      :root {
+        --primary-color: #2f3542;
+        --accent-color: #70a1ff;
+        --bg-gradient: linear-gradient(to right, #f8f9fa, #dfe4ea);
+        --card-bg: #ffffff;
+        --text-color: #2d3436;
+        --section-padding: 30px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background: var(--bg-gradient);
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      header h1 {
+        font-size: 2.8rem;
+        color: var(--primary-color);
+      }
+
+      header p {
+        font-size: 1.2rem;
+        color: var(--accent-color);
+      }
+
+      section {
+        margin-bottom: var(--section-padding);
+      }
+
+      h2 {
+        color: var(--accent-color);
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        border-bottom: 2px solid #ced6e0;
+        padding-bottom: 5px;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      li {
+        margin: 8px 0;
+        font-size: 1.1rem;
+      }
+
+      .icon-list li i {
+        margin-right: 10px;
+        color: var(--accent-color);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      @media (max-width: 600px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #777;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Manoj Palanisamy</h1>
+        <p><class ="fas fa-code"></class> Full Stack Developer</p>
+      </header>
+
+      <section>
+        <h2>🎯 Summary</h2>
+        <p>
+          Creative and detail-oriented Full Stack Developer with a strong
+          foundation in both frontend and backend development. Skilled at
+          building scalable web applications and RESTful APIs using modern
+          technologies.
+        </p>
+      </section>
+
+      <section>
+        <h2>🛠️ Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+            />
+            <span>GitHub</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://tse4.mm.bing.net/th/id/OIP.DRRBC70qC72EbTu1LnzzVAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+              alt="SQL"
+            />
+            <span>SQL</span>
+          </div>
+
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
+            <span>HTML5</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
+            <span>CSS3</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+            <span>React</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+            />
+            <span>Node.js</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="MongoDB"
+            />
+            <span>MongoDB</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://images.seeklogo.com/logo-png/49/1/data-systems-analysts-logo-png_seeklogo-494514.png"
+              alt="DS&ALGO"
+            />
+            <span>DS&ALGO</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+            />
+            <span>Git</span>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              alt="VS Code"
+            />
+            <span>VS Code</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>💼Projects</h2>
+        <div class="grid">
+          <div>
+            <strong> </strong><br />
+            TechStartup Inc. – 2024<br />
+            <small>Built responsive dashboards and integrated REST APIs.</small>
+          </div>
+          <div>
+            <strong>Freelance Projects</strong><br />
+            Remote – 2023-2025<br />
+            <small
+              >Developed 5+ web apps including e-commerce and portfolio
+              websites.</small
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>🎓 Education</h2>
+        <div class="grid">
+          <div>
+            <strong>Bachelor of Computer Application</strong><br />
+            KSR Arts and Science<br />
+            2019–2022
+          </div>
+          <div>
+            <strong>Msc Management with Project Management (with PDP)</strong
+            ><br />
+            BPP university<br />
+            2023–2024
+          </div>
+          <div>
+            <strong>Certifications</strong><br />
+            Full Stack Developer – FreeCodeCamp / GUVI<br />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>📬 Contact</h2>
+        <p><i class="fas fa-envelope"></i> Manojpalanisamy46@gmail.com</p>
+        <p>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/yourusername" target="_blank"
+            >github.com/yourusername</a
+          >
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank"
+            >linkedin.com/in/yourprofile</a
+          >
+        </p>
+      </section>
+
+      <footer>&copy; 2025 Manoj. All rights reserved.</footer>
+    </div>
+  </body>
+</html>
